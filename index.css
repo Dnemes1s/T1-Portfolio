@@ -4,3 +4,33 @@
     --background: #8eb0db;
 }
 
+header{
+    background-color: var(--header-colour);
+    display: flex;
+    flex-direction: column;
+}
+
+.small_logo {
+    display: flex;
+    justify-content: center;
+}
+
+/* .long_logo {
+    display: flex;
+    align-items: center;
+} */
+
+.panel {
+    background-color: var(--nav_button);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav_list li{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
