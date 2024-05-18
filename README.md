@@ -24,7 +24,7 @@
 ![Sitemap](/images/Sitemap.png)
 
 ## Mobile phone design
-![phone](/images/Design/Mobile.png)
+![phone](/images/Design/Phone.png)
 
 ## Desktop design
 ![desktop](/images/Design/Desktop.png)
