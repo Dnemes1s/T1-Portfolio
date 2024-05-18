@@ -13,24 +13,54 @@ header{
 .small_logo {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-/* .long_logo {
+.small_logo img{
+    border-radius: 50%;
+}
+
+ .Long_logo {
     display: flex;
     align-items: center;
-} */
+    flex-direction: column;
+    margin-bottom: 15px;
+} 
 
-.panel {
+.Long_logo img{
+    max-width: 50%;
+}
+
+
+.nav_list {
     background-color: var(--nav_button);
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    
+    justify-content: space-around;
+    font-size: 25px;
 }
 
-.nav_list li{
-    display: flex;
-    flex-direction: row;
+.nav_list a{
     text-decoration: none;
+    color: white;
 }
+
+/* nav_list a:hover {
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.active{
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+} */
+
+body {
+    display: flex;
+    min-height: 100dvh;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0; 
+    background-color: var(--background);   
+}
+
