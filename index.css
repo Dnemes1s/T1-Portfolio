@@ -64,3 +64,34 @@ body {
     background-color: var(--background);   
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--header-colour);
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.info p{
+    background-color: var(--nav_button);
+    margin: auto;
+    border: 15px solid var(--nav_button);
+    text-align: left;
+    color: antiquewhite
+}
