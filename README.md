@@ -31,3 +31,6 @@
 
 ## Desktop design
 ![desktop](/images/Design/Desktop.png)
+
+## References
+About us icon: https://www.flaticon.com/free-icon/about-us_15659
