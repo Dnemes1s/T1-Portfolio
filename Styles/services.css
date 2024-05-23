@@ -1,0 +1,10 @@
+:root {
+    --header-colour: #0C6487;
+    --nav_button: #555a5f;
+    --background: #8eb0db;
+}
+
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
