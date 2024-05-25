@@ -1,4 +1,14 @@
-.info_2 {
+:root {
+    --header-colour: #0C6487;
+    --nav_button: #555a5f;
+    --background: #8eb0db;
+}
+
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.blog {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -7,7 +17,7 @@
     margin: 20px;
 }
 
-.info_2 p{
+.blog p{
     background-color: var(--nav_button);
     margin: auto;
     border: 15px solid var(--nav_button);
@@ -15,4 +25,24 @@
     color: antiquewhite;
     border-radius: 20px;
     font-size: 1rem;
+}
+
+H1 {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    background-color: var(--nav_button);
+    align-items: center;
+    color: antiquewhite;
+    font-weight: normal;
+    font-size: 2rem;
+    border-radius: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: -20px;
 }
