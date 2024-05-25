@@ -24,7 +24,7 @@
     border-radius: 5%;
 } 
 
-h3 {
+.panel p {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,4 +33,5 @@ h3 {
     height: 50px;
     background: var(--nav_button);
     color: antiquewhite;
+    font-size: 1.25rem;
 }
