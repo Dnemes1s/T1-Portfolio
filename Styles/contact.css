@@ -19,11 +19,14 @@ main {
     display: flex;
     flex-direction: row;
     margin-bottom: 24px;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .form-elements label {
     font-size: 18px;
     margin-right: 10px;
+    color: antiquewhite;
 }
 
 .form-input {
@@ -31,22 +34,24 @@ main {
     outline: none;
     border-radius: 4px;
     font-size: 18px;
+    display: flex;
 }
 
 .form-input:not(.form-textarea) {
     height: 35px;
+    width: 250px;
+    align-self: left;
 }
 
 .form-textarea {
     resize: none;
+    width: 250px;
 }
 
-.form-input:focus {
-    box-shadow: 0px 0px 13px 5px var(--primary-color);
-}
-
-.btn-div {
+.button {
     text-align: center;
+    margin-bottom: -40px;
+    margin-top: 40px;
 }
 
 #submit {
@@ -56,9 +61,28 @@ main {
     border-radius: 4px;
     min-width: 120px;
     font-size: 20px;
+    color: antiquewhite;
 }
 
 #submit:hover {
     cursor: pointer;
     background-color: #ffb6b699;
+}
+
+.form {
+    background-color: #0C6487;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.form-elements {
+    display: flex;
+}
+
+.form form {
+    margin-top: -40px;
 }
