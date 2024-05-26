@@ -25,6 +25,8 @@
     border-radius: 20px;
     font-size: 1rem;
     margin-left: 20px;
+    font-size: 1.25rem;
+    margin-right: 10px;
 } 
 
 .blog h2 {
@@ -74,13 +76,9 @@ H1 {
 
 }
 
-.read_more a {
-    text-decoration: none;
-}
 
 main img {
-    width: 40%;
+    width: 60%;
     margin-top: 15px;
     align-self: center;
 }
-
