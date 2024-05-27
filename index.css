@@ -95,3 +95,38 @@ footer {
     color: antiquewhite
 }
 
+.panel a {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 650px){
+    header{
+        background-color: var(--header-colour);
+        display: grid;
+        grid-template-rows: 1fr 75px;  /*you can use px, %, auto etc. here*/
+        grid-template-columns: 250px 1fr;
+        grid-template-areas: "left-item right-top" "left-item right-bottom";
+        
+    }
+
+    .small_logo {
+        grid-area: left-item;
+        display: flex;
+        align-items: center;
+    }
+
+    .small_logo img {
+        border-radius: 0;
+        width: 150px;
+    }
+    
+    .Long_logo {
+        grid-area: right-top;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .nav_list {
+        grid-area: right-bottom;
+    }
+}
