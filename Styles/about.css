@@ -8,3 +8,45 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
+.heading{
+    width: 120px;
+    height: 50px;
+    background-color: var(--header-colour);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.container_h {
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    font-weight: normal;
+}
+
+.description {
+    width: 1fr;
+    height: 200px;
+    background-color: var(--header-colour);
+    margin: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.description h2 {
+    color: antiquewhite;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.description p {
+    margin-left: 20px;
+    color: antiquewhite;
+}
+
+.description a {
+    text-decoration: none;
+}
