@@ -82,3 +82,20 @@ main img {
     margin-top: 15px;
     align-self: center;
 }
+
+
+@media screen and (min-width: 700px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+    }
+    
+    
+    .blog{
+        width: 650px;
+        display: flex;
+        justify-self: center;
+    }
+
+}

@@ -68,3 +68,26 @@ H1 {
     margin-top: 5px;
     margin-bottom: -20px;
 }
+
+@media screen and (min-width: 700px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+    }
+    
+    .services {
+        gap: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .services img{
+        width: 400px;
+        height: 350px
+
+    }
+}
+

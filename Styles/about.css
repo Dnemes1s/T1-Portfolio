@@ -40,6 +40,7 @@
     font-weight: normal;
     margin-top: 20px;
     margin-left: 20px;
+    justify-content: center;
 }
 
 .description p {
@@ -49,4 +50,8 @@
 
 .description a {
     text-decoration: none;
+}
+
+h1 {
+    font-weight: normal;
 }

@@ -38,17 +38,22 @@
     border-radius: 15px;
 }
 
-@media screen and (min-width: 650px) {
-    .panel {
+@media screen and (min-width: 700px) {
+    main {
         display: flex;
-        
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    .panel {
+        width: 400px
+
     }
 
-    /* main {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        display: inline;
-    } */
-    
+    .panel img{
+        width: 350px;
+        height: 300px
+
+    }
 }
