@@ -11,7 +11,7 @@
 .heading{
     width: 120px;
     height: 50px;
-    background-color: var(--header-colour);
+    background-color: var(--nav_button);
     display: flex;
     align-items: center;
     justify-content: center;
