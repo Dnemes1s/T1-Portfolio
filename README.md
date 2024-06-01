@@ -16,6 +16,10 @@
 - Site map
 - Wireframe design 
 
+## Deployment link
+
+https://main--lastminuiteit.netlify.app/
+
 ## Description of website
 
 - purpose of website
