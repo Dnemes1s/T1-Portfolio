@@ -15,6 +15,7 @@
 - Project management with Trello
 - Site map
 - Wireframe design 
+- Due to the simplicity of the website specific styling for tablet wont be needed since the phone layout will work for tablets when in vertical mode and the desktop layout will work for tablets being used in horizontal mode. 
 
 ## Deployment link
 
